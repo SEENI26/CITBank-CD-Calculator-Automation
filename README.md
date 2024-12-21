@@ -1,24 +1,11 @@
-# CIT Bank CD Calculator website.
-
+# CIT Bank CD Calculator website
+- I have automated the website using a Data-Driven Framework with Apache POI in Java and Selenium.
+## The process of verifying the Certificate of Deposit (CD) calculations using the CIT Bank CD Calculator website. The script performs the following tasks:
 - Reads input data (initial deposit, interest rate, term length, compounding frequency, and expected total) from an Excel sheet.
 - Interacts with the web-based CD Calculator to calculate the actual total.
 - Compares the calculated value with the expected value.
 - Writes the result ("Pass" or "Fail") to the Result (F) column of the Excel sheet.
 - Highlights the result in green for "Pass" and red for "Fail".
-
- ## File Structure
- 
- CITBank_CDCalculator/
-│
-├── src/
-│   ├── DatadrivenProject/
-│   │   ├── CITBank_CDCalculator.java        # Main automation script
-│   │   ├── XLUtils.java                     # Utility functions for reading/writing Excel
-│   └── resources/
-│       └── Bankcal.xlsx                     # Excel file with test data
-│
-├── pom.xml                                   # Maven dependency configuration
-└── README.md                                 # Project documentation (this file)
 
 # Automate the Calculation Process:
 
