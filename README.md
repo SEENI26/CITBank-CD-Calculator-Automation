@@ -1,4 +1,4 @@
-# 📚 This project automates the process of verifying the Certificate of Deposit (CD) calculations using the CIT Bank CD Calculator website. The script performs the following tasks:
+# CIT Bank CD Calculator website.
 
 - Reads input data (initial deposit, interest rate, term length, compounding frequency, and expected total) from an Excel sheet.
 - Interacts with the web-based CD Calculator to calculate the actual total.
@@ -6,7 +6,7 @@
 - Writes the result ("Pass" or "Fail") to the Result (F) column of the Excel sheet.
 - Highlights the result in green for "Pass" and red for "Fail".
 
- # File Structure
+ ## File Structure
  
  CITBank_CDCalculator/
 │
